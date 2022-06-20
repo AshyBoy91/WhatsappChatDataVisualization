@@ -32,7 +32,7 @@ if uploaded_file is not None:
 
     # removing the groupnotification
 
-    user_list.remove('Group Notification')
+    # user_list.remove('Group Notification')
 
     # organinsing things
     user_list.sort()
