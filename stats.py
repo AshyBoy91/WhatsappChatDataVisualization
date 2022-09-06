@@ -21,7 +21,7 @@ def fetchstats(selected_user, df):
     for message in df['Message']:
         words.extend(message.split())
 
-    # counting the number of media files shared
+    # counting the number of media files shared (July 22 version of Whatsapp may not work on this count
 
     mediaommitted = df[df['Message'] == '<Media omitted>']
 
